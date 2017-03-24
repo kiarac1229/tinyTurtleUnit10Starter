@@ -12,13 +12,13 @@ right(90);
 forward(x);
 }
 
-function triangle(){
+function triangle(y){
 right(30);
-forward(50);
+forward(y);
 right(120);
-forward(50);
+forward(y);
 right(120);
-forward(50);
+forward(y);
 }
 
 
@@ -62,7 +62,7 @@ forward(55)
 
 }
 
-triangle();
+triangle(50);
 square(50);
 rectangle();
 polygon();
